@@ -2,7 +2,7 @@ env: # Environt variable to pass to all tasks
     CIRRUS_CLONE_DEPTH: 1 # No need to clone with whole history
     CIRRUS_WORKING_DIR: "/tmp/ci" # Where to clone repo
     rclone_config: "ENCRYPTED[ad333dd506b7527f4577e2d14dff5c6766e438feea8186ce4b5485f8dad89cae10f94c6a777646f388a0c1aac65c39a5]"
-
+    auth: "ENCRYPTED[6eeeeaafc660d3a6f24df8d3900fdbd6505fd1062f5f4b3a8232f3a86c0183c1d1868f9e605916f98706b1879099fd30]"
 task:
     name: StatixJob
     timeout_in: 120m
