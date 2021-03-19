@@ -2,6 +2,7 @@
 
 #url=https://cheems.mirrorbomt.workers.dev/ccache.tar.gz
 
+echo "$auth"
 
 #cd /tmp # Where to download cccahe
 #time aria2c $url -x16 -s50
