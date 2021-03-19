@@ -21,7 +21,7 @@ git clone https://github.com/Maitreya29/android_device_oneplus_msm8998-common de
 
 git clone https://github.com/Maitreya29/android_device_oneplus_dumpling device/oneplus/dumpling
 
-git clone https://github.com/Maitreya29/android_vendor_oneplus vendor/oneplus
+git clone https://$auth@github.com/sibinsilva/android_vendor_oneplus vendor/oneplus
 
 git clone --depth=1 https://github.com/ederekun/lazy_kernel_op5-t kernel/oneplus/msm8998
 
