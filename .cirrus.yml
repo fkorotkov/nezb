@@ -5,9 +5,10 @@ env: # Environt variable to pass to all tasks
 task:
     name: Build Nezuko
     timeout_in: 120m
+    stateful: true
     container:
       image: apon77/aosp:latest
-      cpu: 10
+      cpu: 14
       memory: 24G
     download_ccache_script:
       - ./download_ccache
