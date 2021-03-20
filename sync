@@ -12,7 +12,8 @@ git config --global user.name Maitreya29
 git config --global user.email maitreyapatni30@gmail.com
 
 #sync
-repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
+repo sync -c -j6 --force-sync --no-clone-bundle -optimized-fetch --prune --no-tags
+repo sync -c -j6 --force-sync --no-clone-bundle -optimized-fetch --prune --no-tags
 
 rm -rf packages/apps/Settings
 git clone --depth=1 https://"$auth"@github.com/NezukoOS/Sextings packages/apps/Settings
