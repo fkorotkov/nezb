@@ -3,7 +3,7 @@ env: # Environt variable to pass to all tasks
     CIRRUS_WORKING_DIR: "/tmp/ci" # Where to clone repo
     auth: "ENCRYPTED[6eeeeaafc660d3a6f24df8d3900fdbd6505fd1062f5f4b3a8232f3a86c0183c1d1868f9e605916f98706b1879099fd30]"
 task:
-    name: StatixJob
+    name: Build Nezuko
     timeout_in: 120m
     container:
       image: apon77/aosp:latest
