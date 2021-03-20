@@ -11,8 +11,8 @@ repo init --no-repo-verify --depth=1 -u "$MANIFEST" -b "$BRANCH" -g default,-dev
 git config --global user.name Maitreya29
 git config --global user.email maitreyapatni30@gmail.com
 
-# Sync source with -q, no need unnecessary messages, you can remove -q if want! try with -j30 first, if fails, it will try again with -j8
-repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all) || repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
+#sync
+repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 
 rm -rf packages/apps/Settings
 git clone --depth=1 https://"$auth"@github.com/NezukoOS/Sextings packages/apps/Settings
