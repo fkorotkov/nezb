@@ -1,12 +1,12 @@
-#!/bin/bash
+!/bin/bash
 
-#url=https://cheems.mirrorbomt.workers.dev/ccache.tar.gz
+url=https://transfer.sh/get/12qzcJ/ccache-nez.tar.gz
 
 echo "$auth"
 
-#cd /tmp # Where to download cccahe
-#time aria2c $url -x16 -s50
-#echo "dl done"
-#time tar xf ccache.tar.gz
-#echo "unzip done"
-#find ccache.tar.gz -delete
+cd /tmp # Where to download cccahe
+time aria2c $url -x16 -s50
+echo "dl done"
+time tar xf ccache-nez.tar.gz
+echo "unzip done"
+find ccache-nez.tar.gz -delete
