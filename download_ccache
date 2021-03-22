@@ -1,12 +1,12 @@
 !/bin/bash
 
-url=https://transfer.sh/get/12qzcJ/ccache-nez.tar.gz
+url=https://transfer.sh/TiVUn/ccache-nez-final.tar.gz
 
 echo "$auth"
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
 echo "dl done"
-time tar xf ccache-nez.tar.gz
+time tar xf ccache-nez-final.tar.gz
 echo "unzip done"
-find ccache-nez.tar.gz -delete
+find ccache-nez-final.tar.gz -delete
