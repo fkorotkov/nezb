@@ -20,7 +20,7 @@ make_metalava(){
 
 make_rom(){
 	mka bacon -j15
-	zip=$(up out/target/product/dumpling/*zip)
+	zip=out/target/product/dumpling/*zip
 	echo " "
 	curl --upload-file $zip https://transfer.sh/
 	echo "$zip"
