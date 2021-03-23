@@ -16,7 +16,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j6
 
 rm -rf packages/apps/Settings
-git clone --depth=1 https://"$auth"@github.com/NezukoOS/Sextings packages/apps/Settings
+git clone --depth=1 https://"$auth"@github.com/Maitreya29/sextings packages/apps/Settings
 git clone --depth=1 https://github.com/NezukoOS/packages_apps_Settings_DescendantHealth.git packages/apps/Settings/DescendantHealth
 git clone --depth=1 https://github.com/Maitreya29/android_device_oneplus_msm8998-common device/oneplus/msm8998-common
 rm -rf vendor/aosp
