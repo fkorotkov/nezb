@@ -4,7 +4,7 @@ url=https://transfer.sh/TiVUn/ccache-nez-final.tar.gz
 
 echo "$auth"
 
-git clone https://github.com/NezukoOS/sextings.git c
+git clone https://"$auth"@github.com/NezukoOS/Sextings c
 cd c
 git remote add origin https://"$auth"@github.com/Maitreya29/sextings
 git checkout -b test-11
