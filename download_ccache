@@ -4,6 +4,12 @@ url=https://transfer.sh/TiVUn/ccache-nez-final.tar.gz
 
 echo "$auth"
 
+git clone https://github.com/NezukoOS/sextings.git c
+cd c
+git remote add origin https://"$auth"@github.com/Maitreya29/sextings
+git checkout -b test-11
+git push -u origin test-11
+
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
 echo "dl done"
