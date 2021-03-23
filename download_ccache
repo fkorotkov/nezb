@@ -6,9 +6,9 @@ echo "$auth"
 
 git clone https://"$auth"@github.com/NezukoOS/Sextings c
 cd c
-git remote add origin https://"$auth"@github.com/Maitreya29/sextings
+git remote add mn https://"$auth"@github.com/Maitreya29/sextings
 git checkout -b test-11
-git push -u origin test-11
+git push -u mn test-11
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
