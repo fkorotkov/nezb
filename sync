@@ -22,7 +22,7 @@ git clone --depth=1 https://github.com/Maitreya29/android_device_oneplus_msm8998
 rm -rf vendor/aosp
 git clone https://github.com/NezukoOS/vendor_aosp.git vendor/aosp
 git clone --depth=1 https://github.com/Maitreya29/android_device_oneplus_dumpling device/oneplus/dumpling
-
+git clone --depth=1 https://github.com/Maitreya29/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
 git clone --depth=1 https://"$auth"@github.com/Maitreya29/vendor_oneplus vendor/oneplus
 
 git clone --depth=1 https://github.com/ederekun/lazy_kernel_op5-t kernel/oneplus/msm8998
